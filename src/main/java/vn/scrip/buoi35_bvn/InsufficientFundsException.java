@@ -1,0 +1,7 @@
+package vn.scrip.buoi35_bvn;
+public class InsufficientFundsException extends Exception {
+    public InsufficientFundsException(String message) {
+        super(message);
+    }
+}
+
